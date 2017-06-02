@@ -1,6 +1,8 @@
 # pwa-weather
 
-Progressive Web App from Google Codelab
+Hosted at https://pwa-weather-a0a08.firebaseapp.com/ 
+
+## Progressive Web App from Google Codelab
 
 https://codelabs.developers.google.com/codelabs/your-first-pwapp
 
