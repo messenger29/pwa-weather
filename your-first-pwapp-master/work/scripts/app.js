@@ -326,6 +326,8 @@
    ************************************************************************/
 
   // app.selectedCities = localStorage.selectedCities;
+  // [JYNotes] placed code within 'then' because localStorage is blocking
+  // but localforage is async thus wait for promise
   localforage.getItem('selectedCities').then(function(value){
     app.selectedCities = value;
     if (app.selectedCities) {
